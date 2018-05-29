@@ -1,0 +1,60 @@
+# syntax coloring map for Buffer
+# separate name/keywords with a TAB
+
+# data types use KEYWORD1
+SUPSI_MeteoStation		KEYWORD1
+
+# methods and functions use KEYWORD2
+configATS				KEYWORD2
+configALS				KEYWORD2
+configDXS				KEYWORD2
+configDHS				KEYWORD2
+configTRX				KEYWORD2
+configLCD				KEYWORD2
+
+begin					KEYWORD2
+
+readATS					KEYWORD2
+readALS					KEYWORD2
+readDTS					KEYWORD2
+readDPS					KEYWORD2
+readDHS					KEYWORD2
+
+radioSend				KEYWORD2
+radioReceive			KEYWORD2
+
+displayClear			KEYWORD2
+displayTest				KEYWORD2
+displayText				KEYWORD2
+
+# instances use KEYWORD2
+# meteoStation			KEYWORD2
+
+# constants use LITERAL1
+METEOSTATION_NONE		LITERAL1
+METEOSTATION_TX			LITERAL1
+METEOSTATION_RX			LITERAL1
+
+ATS_AIN					LITERAL1
+ALS_AIN					LITERAL1
+
+DXS_SCK					LITERAL1
+DXS_SDA					LITERAL1
+DXS_ADDRESS				LITERAL1
+
+DHS_DOUT				LITERAL1
+
+TRX_GDO0				LITERAL1
+TRX_GDO1				LITERAL1
+TRX_GDO2				LITERAL1
+TRX_CSN					LITERAL1
+TRX_SCK					LITERAL1
+TRX_MOSI				LITERAL1
+
+LCD_BLK					LITERAL1
+LCD_RS					LITERAL1
+LCD_E					LITERAL1
+LCD_DB4					LITERAL1
+LCD_DB5					LITERAL1
+LCD_DB6					LITERAL1
+LCD_DB7					LITERAL1
